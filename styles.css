@@ -1,0 +1,135 @@
+/* --- NAVBAR RESPONSIVO SIN CAMBIAR COLORES --- */
+
+
+/* ==== NAVBAR ORIGINAL CON COLORES RESTAURADOS ==== */
+
+.navbar-custom {
+    background-color: #ffffff;
+    /* Fondo blanco */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    /* Sombra */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-custom .navbar-brand img {
+    width: 100px;
+}
+
+
+/* Color original de los enlaces */
+
+.navbar-custom .nav-link {
+    color: rgb(80, 2, 2) !important;
+    font-weight: 600;
+}
+
+
+/* Hover igual que antes */
+
+.navbar-custom .nav-link:hover {
+    color: #a20000 !important;
+}
+
+
+/* Botón "Iniciar Sesión" restaurado */
+
+.navbar-custom .btn-outline-success,
+.btn-outline-success a {
+    color: rgb(80, 2, 2) !important;
+    border-color: rgb(80, 2, 2) !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-custom .btn-outline-success:hover {
+    background-color: rgb(80, 2, 2) !important;
+    color: #ffffff !important;
+}
+
+
+/* Ícono hamburguesa visible en celular */
+
+.navbar-toggler {
+    border-color: rgb(80, 2, 2);
+}
+
+.navbar-toggler-icon {
+    filter: invert(20%) sepia(90%) saturate(700%) hue-rotate(350deg);
+}
+
+
+/* --- CARRUSEL RESPONSIVO --- */
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    /* Hace que la imagen se ajuste sin deformarse */
+    object-fit: cover;
+    max-height: 75vh;
+}
+
+
+/* --- VIDEO RESPONSIVO (si tienes video) --- */
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+
+/* --- TARJETAS RESPONSVIAS --- */
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* Botón "Iniciar Sesión" normal */
+
+.navbar-custom .btn-outline-success {
+    background-color: transparent !important;
+    border: 2px solid rgb(80, 2, 2) !important;
+    color: rgb(80, 2, 2) !important;
+    font-weight: 600 !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+}
+
+
+/* Cuando pasas el mouse */
+
+.navbar-custom .btn-outline-success:hover {
+    background-color: rgb(80, 2, 2) !important;
+    color: #ffffff !important;
+    /* 👈 Aquí hacemos que el texto sea blanco */
+    border-color: rgb(80, 2, 2) !important;
+}
+
+
+/* Fuerza el color del texto del enlace dentro del botón */
+
+.navbar-custom .btn-outline-success a {
+    color: rgb(80, 2, 2) !important;
+    text-decoration: none !important;
+}
+
+
+/* Cuando pasas el mouse, el texto del botón también cambia */
+
+.navbar-custom .btn-outline-success:hover a {
+    color: #ffffff !important;
+}
+
+.navbar-custom {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.35) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}

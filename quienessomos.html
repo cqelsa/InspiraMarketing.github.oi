@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Quienes Somos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css2.css">
+</head>
+
+<body>
+    <!-- Incorporar icono de whatsapp flotante -->
+    <!-- Icono flotante de WhatsApp -->
+    <a href="https://wa.me/974937150" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+
+    <!-- Cabecera -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./imgs/logo inspira.png" alt="logoinspira" style="width: 100px; height: 100%;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quienessomos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./catalogo.html">Cátalogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success" type="submit"> <a href="./login.html"> Iniciar Sesión</a></button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Quienes somos¡-->
+    <section id="quienes-somos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Quiénes Somos</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-center">
+                        En INSPIRA MARKETING GROUP somos un equipo creativo y comprometido que convierte conceptos en piezas visuales únicas, combinando diseño, impresión y corte de materiales con la más alta tecnología. Más que fabricar productos, buscamos inspirar, emocionar
+                        y ayudar a que cada cliente destaque con una identidad propia y memorable.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-8 text-center">
+                    <video src="./recursos/videos/videopromocional.mp4cambiar" controls autoplay style="width:100%; border-radius:10px;"></video>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contactame" class="py-5 bg-light">
+
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- COLUMNA IZQUIERDA RESPONSIVA -->
+                <div class="col-12 col-md-6">
+                    <h4>Información del Contacto</h4>
+                    <p><i class="fa fa-envelope"></i> Inspiracusco.mg@gmail.com</p>
+                    <p><i class="fa fa-phone"></i> Cel: 974 937 150</p>
+                    <p><i class="fa fa-map-marker"></i> Jr. Justicia H-12 Urb. San Francisco</p>
+                    <p><i class="fa fa-clock"></i> Lun - Vie, 9:00am a 3:00pm</p>
+
+                    <h4>Redes Sociales</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/15JNUkcJKij/" class="text-black mx-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-black mx-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-black mx-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@patrickcairo1" class="text-black mx-2"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- COLUMNA DERECHA RESPONSIVA -->
+                <div class="col-12 col-md-6">
+                    <h2>Formulario de Contacto</h2>
+                    <form>
+                        <div class="form-group mb-2">
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="nombres">Nombres</label>
+                            <input type="text" class="form-control" id="nombres" placeholder="Tus nombres" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="celular">Celular</label>
+                            <input type="tel" class="form-control" id="celular" placeholder="Número de celular" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion contactame -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Mi Pagina Web. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/15JNUkcJKij/" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@patrickcairo1?_t=ZS-90aY3fkILNo&_r=1" class="text-white mx-2"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <!-- Enlace a los scripts de Bootstrap y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript personalizado -->
+    <script src="./scrip2.js"></script>
+</body>
+
+</html>

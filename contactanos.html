@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- VIEWPORT CORRECTO PARA RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contactanos</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css2.css">
+
+    <style>
+        /* Sombra a la barra de navegación */
+        
+        .navbar-custom {
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        }
+        /* Ajuste del ícono flotante de WhatsApp */
+        
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 55px;
+            height: 55px;
+            z-index: 1000;
+        }
+        
+        .whatsapp-float img {
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Icono flotante de WhatsApp -->
+    <a href="https://wa.me/974937150" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./imgs/logo inspira.png" alt="logoinspira" style="width: 100px;"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./quienessomos.html">Quienes Somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./catalogo.html">Cátalogo</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./contactanos.html">Contactanos</a></li>
+                    </ul>
+
+                    <form class="d-flex">
+                        <a href="./login.html" class="btn btn-outline-success">Iniciar Sesión</a>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contactame" class="py-5 bg-light">
+
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- COLUMNA IZQUIERDA RESPONSIVA -->
+
+                <div class="col-12 col-md-6">
+                    <h4>Información del Contacto</h4>
+                    <p><i class="fa fa-envelope"></i> Inspiracusco.mg@gmail.com</p>
+                    <p><i class="fa fa-phone"></i> Cel: 974 937 150</p>
+                    <p><i class="fa fa-map-marker"></i> Jr. Justicia H-12 Urb. San Francisco</p>
+                    <p><i class="fa fa-clock"></i> Lun - Vie, 9:00am a 3:00pm</p>
+
+                    <h4>Redes Sociales</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/15JNUkcJKij/" class="text-black mx-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-black mx-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-black mx-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@patrickcairo1" class="text-black mx-2"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- COLUMNA DERECHA RESPONSIVA -->
+                <div class="col-12 col-md-6">
+                    <h2>Formulario de Contacto</h2>
+                    <form>
+                        <div class="form-group mb-2">
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="nombres">Nombres</label>
+                            <input type="text" class="form-control" id="nombres" placeholder="Tus nombres" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="celular">Celular</label>
+                            <input type="tel" class="form-control" id="celular" placeholder="Número de celular" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion contactame -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Mi Pagina Web. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/15JNUkcJKij/" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@patrickcairo1?_t=ZS-90aY3fkILNo&_r=1" class="text-white mx-2"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <!-- Enlace a los scripts de Bootstrap y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript personalizado -->
+    <script src="./scrip2.js"></script>
+</body>
+
+</html>
